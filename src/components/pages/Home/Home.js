@@ -1,7 +1,12 @@
+import Hero from "../../views/Hero/Hero";
 
 const Home = () => {
     return (
-        <h3>Home</h3>
+        <>
+            <Hero/>
+            <h3>Home</h3>
+        </>
+        
       );
 }
  
