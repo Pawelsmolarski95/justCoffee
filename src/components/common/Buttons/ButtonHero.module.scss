@@ -1,0 +1,23 @@
+@import '../../../styles/settings.scss';
+
+
+.btn {
+    width: 150px;
+    height: 60px;
+    border: none;
+    background-color: inherit;
+    color: $color-light;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+    z-index: 2;
+    border-radius: 5px;
+
+    font-size: 35px;
+  
+}
