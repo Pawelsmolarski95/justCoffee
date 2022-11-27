@@ -1,0 +1,92 @@
+
+
+.navbar {
+    background-color: rgb(145, 148, 150);
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+    padding: 10px 30px;
+    line-height: 3;
+    min-width: 350px;
+    max-width: 100%;
+    
+}
+
+.title {
+    color: whitesmoke;
+    font-weight: 600;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+    border: 1px solid whitesmoke;
+    padding: 5px;
+    
+    a {
+        text-decoration: none;
+        color: whitesmoke;
+        letter-spacing: 3px;
+        font-size: 38px;
+        font-family: 'Dancing Script', cursive;
+       
+    }
+}
+
+.logoRightSide {
+    display: flex;
+    gap: 15px;
+    color: whitesmoke;
+    cursor: pointer;
+    margin-right: 10px;
+    
+}
+
+.MobileNavigation {
+    display: none;
+    
+}
+
+.DeskopNavigation {
+    display: flex;
+}
+
+.hamburger {
+    display: none;
+}
+
+.logo {
+    margin-left: 6px;
+}
+
+@media (max-width: 767px) {
+    
+    .DeskopNavigation {
+        display: none;
+    }
+    
+    .MobileNavigation {
+        background-color: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .navbar {
+        flex-direction: column;
+        align-content:center ;
+        justify-content: center;
+        
+    }
+    
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 12px;
+        right: 15px;
+    }
+    
+}
