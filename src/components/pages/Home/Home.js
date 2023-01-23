@@ -1,11 +1,15 @@
+import Article from "../../views/Article/Article";
 import Hero from "../../views/Hero/Hero";
-import Shop from "../Shop/Shop";
+import FeaturedBlends from "../FeaturedBlends/FeaturedBlends";
+import FeaturedProducts from "../FeaturedProducts/FeaturedProducts";
 
 const Home = () => {
     return (
         <>
             <Hero/>
-            <Shop/>
+            <FeaturedProducts/>
+            <Article/>
+            <FeaturedBlends/>
         </>
         
       );

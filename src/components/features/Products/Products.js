@@ -7,8 +7,8 @@ const Products = () => {
     const allProducts = useSelector(getAllProducts);
     
     return (
-        <div className="row">
-            {allProducts.map(item => 
+        <div className={styles.wrapper} >
+            {allProducts.slice(0, 4).map(item => 
                 <Product
                     key={item.id}
                     {...item}
